@@ -5,8 +5,8 @@ import numpy as np
 import torch
 from torchvision.transforms import transforms
 
-from models_.hrnet import HRNet
-from models_.poseresnet import PoseResNet
+from .models_.hrnet import HRNet
+from .models_.poseresnet import PoseResNet
 
 
 class SimpleHRNet:
